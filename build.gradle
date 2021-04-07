@@ -1,0 +1,17 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.31'
+    id 'com.github.johnrengelman.shadow' version '2.0.4'
+}
+
+group 'me.miqhtie'
+version '1.0-'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    compileOnly 'org.spigotmc:spigot:1.16.5-R0.1-SNAPSHOT'
+}

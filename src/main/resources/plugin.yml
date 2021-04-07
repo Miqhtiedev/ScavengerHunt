@@ -1,0 +1,15 @@
+name: Scavengerhunt
+api-version: 1.16
+main: me.miqhtie.ScavengerHunt
+version: 1.0
+description: Scavenger hunt plugin for Calm Guild
+author: Miqhtie
+
+permissions:
+  setitems:
+    description: Gives access to the setitems command
+    default: false
+
+commands:
+  setitems:
+    description: Set the items for the scavenger hunt

@@ -1,0 +1,4 @@
+items:
+  - ==: org.bukkit.inventory.ItemStack
+    v: 2586
+    type: DIRT
