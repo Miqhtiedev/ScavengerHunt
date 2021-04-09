@@ -5,11 +5,12 @@ version: 1.0
 description: Scavenger hunt plugin for Calm Guild
 author: Miqhtie
 
-permissions:
-  setitems:
-    description: Gives access to the setitems command
-    default: false
-
 commands:
   setitems:
     description: Set the items for the scavenger hunt
+  start:
+    description: Starts the game
+  end:
+    description: Ends the game
+  items:
+    description: View the items you need to collect
